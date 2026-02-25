@@ -1,0 +1,32 @@
+{
+  "name": "-bot",
+  "version": "6.0.0",
+  "description": "Ultimate WhatsApp Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install:all": "npm install && npm install ytdl-core yt-search fluent-ffmpeg @ffmpeg-installer/ffmpeg",
+    "pm2": "pm2 start index.js --name prime-bot"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.5.0",
+    "@hapi/boom": "^10.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.14.1",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.1.1",
+    "axios": "^1.6.0",
+    "moment-timezone": "^0.5.43",
+    "ytdl-core": "^4.11.5",
+    "yt-search": "^2.10.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "file-type": "^16.5.3",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.6.11",
+    "google-tts-api": "^2.0.2",
+    "form-data": "^4.0.0",
+    "node-webpmux": "^3.1.7",
+    "openai": "^4.20.0"
+  }
+}
